@@ -248,7 +248,7 @@
   .table_item_data tbody tr:first-child:hover {
     background-color: transparent;
   }
-  navbar {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -267,7 +267,7 @@
     display: flex;
     gap: 170px;
   }
-  .left_navbar{
+  .left_nav{
     width: 60vw;
     display: flex;
     gap: 180px;
@@ -303,7 +303,7 @@
   }
   
   
-  .navbar_event_conference{
+  .nav_event_conference{
     position: fixed;
     top: 1px;
     z-index: 99;
@@ -313,7 +313,7 @@
     cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
   }
   @media (max-width: 700px) {
-    navbar {
+    nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -328,7 +328,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .left_navbar {
+    .left_nav {
         width: 100%;
         display: flex;
         justify-content: center;
